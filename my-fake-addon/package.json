@@ -56,7 +56,9 @@
     "version": 2,
     "type": "addon",
     "main": "addon-main.js",
-    "app-js": {}
+    "app-js": {
+      "./components/c-u-t/fake-component.js": "./dist/_app_/components/c-u-t/fake-component.js"
+    }
   },
   "exports": {
     ".": "./dist/index.js",
