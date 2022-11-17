@@ -1,15 +1,5 @@
 # @wenincode/my-fake-addon
 
-## 0.2.0
-
-### Minor Changes
-
-- 956f801: Added FakeButton component
-
-### Patch Changes
-
-- 956f801: Changed the content of the FakeComponent template
-
 ## 0.1.2
 
 ### Patch Changes
