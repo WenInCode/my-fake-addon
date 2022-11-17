@@ -1,6 +1,6 @@
 {
   "name": "@wenincode/my-fake-addon",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "The default blueprint for Embroider v2 addons.",
   "keywords": [
     "ember-addon"
