@@ -13,7 +13,10 @@
     "start:test": "yarn workspace @wenincode/my-fake-addon run start",
     "test": "yarn workspaces run test",
     "lint": "yarn workspaces run lint",
-    "lint:fix": "yarn workspaces run lint:fix"
+    "lint:fix": "yarn workspaces run lint:fix",
+    "prerelease": "yarn prepare",
+    "changeset": "changeset",
+    "release": "changeset publish"
   },
   "devDependencies": {
     "concurrently": "^7.2.1",
