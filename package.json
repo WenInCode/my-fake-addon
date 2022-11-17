@@ -7,10 +7,10 @@
   "author": "",
   "scripts": {
     "prepare": "yarn build",
-    "build": "yarn workspace my-fake-addon run build",
+    "build": "yarn workspace @wenincode/my-fake-addon run build",
     "start": "concurrently 'npm:start:*' --restart-after 5000 --prefix-colors cyan,white,yellow",
-    "start:addon": "yarn workspace my-fake-addon run start",
-    "start:test": "yarn workspace my-fake-addon run start",
+    "start:addon": "yarn workspace @wenincode/my-fake-addon run start",
+    "start:test": "yarn workspace @wenincode/my-fake-addon run start",
     "test": "yarn workspaces run test",
     "lint": "yarn workspaces run lint",
     "lint:fix": "yarn workspaces run lint:fix"
@@ -22,5 +22,8 @@
   "workspaces": [
     "my-fake-addon",
     "test-app"
-  ]
+  ],
+  "dependencies": {
+    "@changesets/cli": "^2.25.2"
+  }
 }
